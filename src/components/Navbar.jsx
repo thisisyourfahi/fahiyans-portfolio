@@ -8,13 +8,18 @@ const Navbar = () => {
             </a>
             <ul className='flex gap-10'>
                 <li className='hover:text-blue-700 hover:underline'>
-                    Extracurricular Activities
+                    <a href='#education'>
+                        Education
+                    </a>
                 </li>
                 <li className='hover:text-blue-700 hover:underline'>
                     Skills
                 </li>
                 <li className='hover:text-blue-700 hover:underline'>
                     Projects
+                </li>
+                <li className='hover:text-blue-700 hover:underline'>
+                    Extracurricular Activities
                 </li>
             </ul>
         </div>
