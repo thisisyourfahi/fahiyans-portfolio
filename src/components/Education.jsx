@@ -3,7 +3,7 @@ import React from "react";
 
 const Education = () => {
     return (
-        <section id="education" className="py-20 px-6">
+        <section id="education" className="py-20 px-6" style={{ fontFamily: "var(--font-space-grotesk)" }}>
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-3xl font-bold mb-10">Education</h2>
 
@@ -64,7 +64,7 @@ const Education = () => {
                                 GPA
                             </p>
                             <p className="text-lg font-semibold">
-                                5.00(Science)
+                                5.00 (Science)
                             </p>
                         </div>
                     </div>

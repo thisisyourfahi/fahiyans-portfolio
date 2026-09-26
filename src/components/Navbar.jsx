@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between'>
+        <div className='flex justify-between' style={{ fontFamily: "var(--font-space-grotesk)" }}>
             <a className='hover:text-blue-700 hover:underline' href='https://www.facebook.com/thisisyourfahi1/'>
                 Fahiyan Shah
             </a>
@@ -13,13 +13,15 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li className='hover:text-blue-700 hover:underline'>
-                    Skills
+                    <a href="#skills">
+                        Skills
+                    </a>
                 </li>
                 <li className='hover:text-blue-700 hover:underline'>
                     Projects
                 </li>
                 <li className='hover:text-blue-700 hover:underline'>
-                    Extracurricular Activities
+                    Extracurricular activities
                 </li>
             </ul>
         </div>
