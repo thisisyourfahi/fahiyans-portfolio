@@ -42,7 +42,7 @@ const Extracurricular = () => {
                          hover:shadow-[0_0_10px_rgba(29,78,216,0.6)]"
                         >
                             {/* Timeline dot */}
-                            <span className="absolute -left-[31px] top-7 h-3 w-3
+                            <span className="absolute -left-7.75 top-7 h-3 w-3
                                rounded-full border border-blue-700
                                bg-black" />
 
