@@ -7,9 +7,9 @@ const Education = () => {
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-3xl font-bold mb-10">Education</h2>
 
-                <div className="grid gap-6 md:grid-cols-2">
+                <div className="grid gap-6 md:grid-cols-2 ">
                     {/* Undergraduate */}
-                    <div className="border rounded-xl p-6">
+                    <div className="border rounded-xl p-6 hover:border-blue-700 hover:shadow-[0_0_10px_rgba(29,78,216,0.6)] transition-all duration-300 ease-in-out">
                         <span className="text-sm text-gray-500">
                             2024 - 2027
                         </span>
@@ -33,7 +33,7 @@ const Education = () => {
                     </div>
 
                     {/* HSC */}
-                    <div className="border rounded-xl p-6">
+                    <div className="border rounded-xl p-6 hover:border-blue-700 hover:shadow-[0_0_10px_rgba(29,78,216,0.6)] transition-all duration-300 ease-in-out">
                         <span className="text-sm text-gray-500">
                             2022
                         </span>

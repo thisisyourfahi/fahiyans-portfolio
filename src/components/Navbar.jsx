@@ -21,7 +21,9 @@ const Navbar = () => {
                     Projects
                 </li>
                 <li className='hover:text-blue-700 hover:underline'>
-                    Extracurricular activities
+                    <a href='#extracurricular'>
+                        Extracurricular activities
+                    </a>
                 </li>
             </ul>
         </div>
